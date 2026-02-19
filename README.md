@@ -1,13 +1,6 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a6bff,100:00d4ff&height=180&section=header&text=Mesaque%20Botelho%20Junior&fontSize=36&fontColor=ffffff&fontAlignY=35&desc=Data%20Engineer%20%7C%20Building%20Scalable%20Data%20Architectures&descSize=16&descAlignY=55&descColor=cccccc"/>
 
-```
- ██████╗  █████╗ ████████╗ █████╗     ███████╗███╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗███████╗██████╗
- ██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗    ██╔════╝████╗  ██║██╔════╝ ██║████╗  ██║██╔════╝██╔════╝██╔══██╗
- ██║  ██║███████║   ██║   ███████║    █████╗  ██╔██╗ ██║██║  ███╗██║██╔██╗ ██║█████╗  █████╗  ██████╔╝
- ██║  ██║██╔══██║   ██║   ██╔══██║    ██╔══╝  ██║╚██╗██║██║   ██║██║██║╚██╗██║██╔══╝  ██╔══╝  ██╔══██╗
- ██████╔╝██║  ██║   ██║   ██║  ██║    ███████╗██║ ╚████║╚██████╔╝██║██║ ╚████║███████╗███████╗██║  ██║
- ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝╚═╝
-```
+
 
 <div align="center">
 
@@ -129,20 +122,20 @@ me = DataEngineer()
 
 ```
  ╔═══════════════════════════════════════════════════════════════════════╗
- ║                      ARCHITECTURE PATTERNS                          ║
+ ║                      ARCHITECTURE PATTERNS                            ║
  ╠═══════════════════════════════════════════════════════════════════════╣
- ║                                                                     ║
- ║   [APIs]──►[Kafka]──►[S3]──►[Snowpipe]──►[Snowflake]              ║
- ║     │                                         │                     ║
- ║     ▼                                         ▼                     ║
- ║   [Lambda]                            [Dynamic Tables]              ║
- ║     │                                         │                     ║
- ║     ▼                                         ▼                     ║
- ║   [ECS]──►[Processing]──►[dbt]──►[ClickHouse/PostgreSQL]          ║
- ║                                         │                           ║
- ║                                         ▼                           ║
- ║                                    [Dashboards]                     ║
- ║                                                                     ║
+ ║                                                                       ║
+ ║        [APIs]──►[Kafka]──►[S3]──►[Snowpipe]──►[Snowflake]             ║
+ ║          │                                         │                  ║
+ ║          ▼                                         ▼                  ║
+ ║        [Lambda]                            [Dynamic Tables]           ║
+ ║          │                                         │                  ║
+ ║          ▼                                         ▼                  ║
+ ║        [ECS]──►[Processing]──►[dbt]──►[ClickHouse/PostgreSQL]         ║
+ ║                                              │                        ║
+ ║                                              ▼                        ║
+ ║                                         [Dashboards]                  ║
+ ║                                                                       ║
  ╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -230,7 +223,7 @@ me = DataEngineer()
 ```
               ╭──────────────────────────────────╮
               │   "Data is the new oil, but      │
-              │    pipelines are the refinery."   │
+              │    pipelines are the refinery." │
               ╰──────────────────────────────────╯
 ```
 
