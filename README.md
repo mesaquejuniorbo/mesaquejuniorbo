@@ -118,28 +118,36 @@ me = DataEngineer()
 
 ## `> ls projects/`
 
-<div align="center">
+```mermaid
+graph LR
+    A[APIs] --> B[Kafka]
+    B --> C[S3]
+    C --> D[Snowpipe]
+    D --> E[Snowflake]
+    E --> F[Dynamic Tables]
+    F --> G[dbt]
 
-```
- ╔═══════════════════════════════════════════════════════════════════════╗
- ║                      ARCHITECTURE PATTERNS                            ║
- ╠═══════════════════════════════════════════════════════════════════════╣
- ║                                                                       ║
- ║        [APIs]──►[Kafka]──►[S3]──►[Snowpipe]──►[Snowflake]             ║
- ║          │                                         │                  ║
- ║          ▼                                         ▼                  ║
- ║        [Lambda]                            [Dynamic Tables]           ║
- ║          │                                         │                  ║
- ║          ▼                                         ▼                  ║
- ║        [ECS]──►[Processing]──►[dbt]──►[ClickHouse/PostgreSQL]         ║
- ║                                              │                        ║
- ║                                              ▼                        ║
- ║                                         [Dashboards]                  ║
- ║                                                                       ║
- ╚═══════════════════════════════════════════════════════════════════════╝
-```
+    A --> H[Lambda]
+    H --> I[ECS]
+    I --> J[Processing]
+    J --> G
 
-</div>
+    G --> K[ClickHouse / PostgreSQL]
+    K --> L[Dashboards]
+
+    style A fill:#1a6bff,stroke:#0d1117,color:#fff
+    style B fill:#231F20,stroke:#0d1117,color:#fff
+    style C fill:#232F3E,stroke:#0d1117,color:#fff
+    style D fill:#29B5E8,stroke:#0d1117,color:#fff
+    style E fill:#29B5E8,stroke:#0d1117,color:#fff
+    style F fill:#29B5E8,stroke:#0d1117,color:#fff
+    style G fill:#FF694B,stroke:#0d1117,color:#fff
+    style H fill:#232F3E,stroke:#0d1117,color:#fff
+    style I fill:#232F3E,stroke:#0d1117,color:#fff
+    style J fill:#00d4ff,stroke:#0d1117,color:#0d1117
+    style K fill:#4169E1,stroke:#0d1117,color:#fff
+    style L fill:#1a6bff,stroke:#0d1117,color:#fff
+```
 
 ### What I Build
 
@@ -220,12 +228,9 @@ me = DataEngineer()
 
 <div align="center">
 
-```
-              ╭──────────────────────────────────╮
-              │   "Data is the new oil, but      │
-              │    pipelines are the refinery." │
-              ╰──────────────────────────────────╯
-```
+
+> *"Data is the new oil, but pipelines are the refinery."*
+
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mesaquejuniorbo&color=1a6bff&style=for-the-badge&label=PROFILE+VIEWS)
 
