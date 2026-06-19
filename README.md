@@ -203,14 +203,14 @@ graph LR
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mesaquejuniorbo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=1a6bff&icon_color=00d4ff&text_color=c9d1d9&ring_color=1a6bff" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mesaquejuniorbo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=1a6bff&text_color=c9d1d9" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mesaquejunior&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=1a6bff&icon_color=00d4ff&text_color=c9d1d9&ring_color=1a6bff" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mesaquejunior&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=1a6bff&text_color=c9d1d9" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=mesaquejuniorbo&theme=tokyonight&hide_border=true&background=0D1117&ring=1A6BFF&fire=00D4FF&currStreakLabel=00D4FF" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=mesaquejunior&theme=tokyonight&hide_border=true&background=0D1117&ring=1A6BFF&fire=00D4FF&currStreakLabel=00D4FF" />
 
 </div>
 
@@ -220,7 +220,7 @@ graph LR
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mesaquejuniorbo&bg_color=0d1117&color=1a6bff&line=00d4ff&point=ffffff&area=true&area_color=1a6bff&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mesaquejunior&bg_color=0d1117&color=1a6bff&line=00d4ff&point=ffffff&area=true&area_color=1a6bff&hide_border=true" />
 
 </div>
 
@@ -232,7 +232,7 @@ graph LR
 > *"Data is the new oil, but pipelines are the refinery."*
 
 
-![Profile Views](https://komarev.com/ghpvc/?username=mesaquejuniorbo&color=1a6bff&style=for-the-badge&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=mesaquejunior&color=1a6bff&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
 
